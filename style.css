@@ -1,0 +1,346 @@
+@font-face{
+    src : url('assets/fonts/Lato-Bold/Lato-Bold.ttf');
+    font-family:'Lato-Bold'; 
+}
+
+@font-face{
+    src : url('assets/fonts/Lato-Bold/Lato-Regular.ttf');
+    font-family:'Lato-Regular'; 
+}
+
+body{
+
+    font-family:'Lato-Bold'; 
+    font-family:'Lato-Regular';
+}
+
+
+/*header CSS start */
+
+#nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding-top: 13px;
+    padding-bottom: 27px;
+}
+.navbar-nav.ml-auto {
+    margin-right: 220px;
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    margin-left: 200px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+    color: #2d3950;
+    font-family: lato-bold;
+    padding: 10px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #15a4fa;
+    transition: all 1.5s;
+}
+
+/*header CSS EnD */
+
+/*****Hero Area Start******/
+.hero-area {
+    background: #ddd;
+    background-image: url('assets/images/Strict.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+.hero-content h2 {
+    padding-top: 100px;
+    color: #fff;
+    font-size: 85px;
+    font-family: Lato-Bold;
+}
+
+.hero-content hr {
+    color: #15A4FA;
+    border: 1px solid;
+    margin-left: 284px;
+    margin-right: 284px;
+}
+
+.hero-content p {
+    color: #fff;
+    font-family: Lato-Regular;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.hero-content a {
+    border: 1px solid#007bff;
+    padding: 9px 13px;
+    color: #fff;
+    font-family: Lato-Regular;
+    font-size: 15px;
+}
+
+
+.fa.fa-chevron-down {
+    padding-top: 147px;
+    color: #fff;
+}
+.hero-content a:hover {
+    border: 1px solid#007bff;
+    padding: 9px 13px;
+    color: #fff;
+    font-family: Lato-Regular;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+    background: #15A4FA;
+    transition: all 1.2s;
+}
+
+/*****Hero Area EnD******/
+
+/*****Start Banner Section*****/
+
+.Banner {
+    background: #F6F9F9;
+    padding-top: 30px;
+    padding-bottom: 61px;
+}
+.banner-content h2 {
+    padding-top: 25px;
+    font-size: 40px;
+    font-family: Lato-Regular;
+}
+.banner-content p {
+    font-size: 20px;
+    font-family: Lato-Rrgular;
+}
+/*****EnD Banner Section*****/
+
+/****Start Feature*****/
+
+.feature {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.row.text-center {
+    padding-top: 70px;
+}
+
+.featur-content i {
+    border: 1px solid#48BAFF;
+    padding: 12px 22px;
+    background: #48BAFF;
+    color: #fff;
+    font-size: 50px;
+}
+
+.featur-content h2 {
+    padding-top: 20px;
+    font-size: 23px;
+    font-family: Lato-Regular;
+}
+.featur-content p {
+    font-size: 17px;
+    font-family: Lato-Regular;
+    color: #999999;
+    padding-top: 10px;
+}
+.featur-content:hover p{
+    color: #fff;
+    transition: all 1.3s;
+}
+.featur-content i:hover {
+    background: #9809d9c4;
+    transition: all 1.5s;
+}
+.featur-content:hover {
+    background: #48BAFF;
+    padding: 25px 20px;
+    color: #fff;
+    transition: all 1.5s;
+    position: absolute;
+    font-family: Lato-Regular;
+}
+
+/****EnD Feature*****/
+
+/***Start protfolio ****/
+
+.protfolio {
+    padding-top: 30px !important;
+    padding-bottom: 124px !important;
+    background: #F6F9F9;
+    padding: 120px;
+}
+.protfolio h2{
+    font-family: Lato-Regular;
+}
+.protfolio p{
+    font-family: Lato-Regular;
+    color: #989898;
+}
+.images img {
+    width: 95%;
+    height: 271px;
+    transition: 1s all ease-in-out;
+
+}
+.images :hover img {
+    width: 256px;
+    height: 271px;
+    transform: scale(2.5) rotate(0deg);
+}
+.images {
+    margin: -4%;
+    height: auto;
+    margin-top: 58px;
+    overflow: hidden;
+}
+
+/***Start protfolio ****/
+
+/***Start Footer***/
+
+.footer {
+    background: url('assets/images/footer.png');
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 440px;
+    background-size: cover;
+}
+.footer-content h2 {
+    font-size: 41px;
+    color: #fff;
+    font-family: Lato-Regular;
+}
+.footer-content p {
+    font-size: 15px;
+    color: #fff;
+    font-family: Lato-Regular;
+}
+
+.login-box {
+    width: 434px;
+    position: absolute;
+    top: 156%;
+    left: 49%;
+    transform: translate(-47%,-50%);
+    color: #fff;
+    padding-top: 17rem;
+    font-family: Leto-Regular;
+}
+.text-box input {
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 8px 11px;
+    margin: 8px 0;
+    border-top: 0px solid #9b9f9d;
+    color: #fff;
+    background: none;
+    font-family: Lato-Regular;
+    border-radius: 5px;
+}
+.email input {
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 8px 11px;
+    color: #fff;
+    background: none;
+    font-family: Lato-Regular;
+    margin-top: 24px;
+    border-radius: 5px 5px 5px 5px;
+}
+.email textarea{
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 8px 11px;
+    border-bottom: : 0px solid #9b9f9d;
+    color: #fff;
+    background: none;
+    font-family: Lato-Regular;
+    margin-top: 24px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.checkbox input{
+    overflow: hidden;
+    font-size: 18px;
+    padding: 8px 11px;
+    border-bottom: : 0px solid #9b9f9d;
+    color: #fff;
+    background: none;
+    font-family: Lato-Regular;
+    margin-top: 24px;
+    border-radius: 5px 5px 5px 5px;
+}
+.checkbox {
+    font-size: 16px;
+    font-family: Lato_Regular;
+    color: #fff;
+}
+
+.btn.btn-default {
+    color: #fff;
+    margin-left: 343px;
+    margin-top: -50px;
+    border: 1px solid #15A4FA;
+    padding: 4px 28px;
+    font-family: Lato-Bold;
+}
+.btn.btn-default:hover {
+    background: #15A4FABF;
+    transition: all 1.5s;
+}
+
+.footer-pro {
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #F6F9F9;
+}
+.footer-last{
+
+}
+.footer-last p {
+    font-size: 16px;
+    color: #808080;
+    font-family: Lato-Regular;
+}
+.footer-last p i {
+    font-size: 16px;
+    color: #808080;
+}
+.footer-icon {
+    margin-left: 16rem;
+}
+.footer-icon i {
+    border: 1px solid #15A4FA;
+}
+.footer-icon i {
+    border: 1px solid #15A4FA;
+    padding: 10px 14px;
+    background: #15A4FA;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin: 1px;
+}
+/***EnD Footer***/
+
+/********Sir, if there are any wrong things in my work, please see me in forgiveness*********/
+
+/***********************ThakQ My dear Mohammad Shariar Islam sir***********************/
